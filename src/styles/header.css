@@ -1,0 +1,23 @@
+.container-header {
+   padding: 30px;
+}
+
+.container-header > img{
+   height: 60px;
+}
+
+.container-header > div {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(150px, 150px));
+   gap: 1rem;
+   padding: 10px 20px;
+   justify-content: center;
+}
+
+.container-header > div > h2 {
+   border-radius: 5px;
+   background-color: #29363C;
+   padding: 5px;
+   font-size: x-small;
+   color: whitesmoke;
+}

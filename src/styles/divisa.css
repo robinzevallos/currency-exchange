@@ -1,0 +1,31 @@
+.container-divisa {
+   background-color: #FFF;
+   border-radius: 10px;
+   border: 1px solid #7E57C2;
+   box-shadow: 0 6px 6px -6px #7E57C2;
+   display: flex;
+   padding: 10px;
+}
+
+.container-divisa.focus {
+   border: 1px solid #6eb9f7;
+   box-shadow: 0 6px 6px -6px #6eb9f7;
+}
+
+.container-divisa > input {
+   background-color: transparent;
+   border: none;
+   font-size: 16px;
+   width: 100%;
+}
+
+.container-divisa > input:focus {
+   outline: none;
+}
+
+.container-divisa > label {
+   font-size: 16px;
+   margin-right: 5px;
+   padding-bottom: 2px;
+}
+

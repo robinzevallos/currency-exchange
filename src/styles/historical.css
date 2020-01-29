@@ -1,0 +1,36 @@
+.container-historical {
+   margin-top: 40px;
+}
+
+.container-historical > h1 {
+   color: #29363C;
+   font-size: large;
+   text-align: center;
+}
+
+.container-historical > ul {
+   display: grid;
+   grid-template-columns: repeat(2, minmax(140px, 140px));
+   column-gap: 10%;
+   padding: 20px;
+   justify-content: center;
+   list-style-type: none;
+}
+
+.container-historical > ul > li {
+   text-align: left;
+}
+
+.container-historical > ul > li > h2 {
+   background-color: #564883;
+   width: fit-content;
+   font-size: small;
+   color: whitesmoke;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+.container-historical > ul > li > h3 {
+   font-size: small;
+   color: #29363C;
+}

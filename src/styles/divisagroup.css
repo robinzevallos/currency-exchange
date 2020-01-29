@@ -1,0 +1,13 @@
+.container-divisagroup {
+   display: grid;
+   gap: 2rem;
+   padding: 20px;
+   /* background-color: #29363C; */
+}
+
+.container-divisagroup > div{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+   gap: 1rem;
+   justify-content: center;
+}

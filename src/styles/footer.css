@@ -1,0 +1,31 @@
+.container-footer {
+   display: grid;
+   padding: 10px;
+   background-color: #29363C;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.container-footer > section {
+   padding: 5px 10px;
+}
+
+.container-footer > section > h2 {
+   color: #FFF;
+   text-align: left;
+   font-size: large;
+}
+
+.container-footer > section > h3 {
+   text-align: left;
+   color: gray;
+   font-size: smaller;
+}
+
+.icons-footer {
+   display: flex;
+}
+
+.icons-footer > img{
+   height: 30px;
+   margin-right: 10px;
+}
